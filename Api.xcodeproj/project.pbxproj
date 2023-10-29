@@ -15,6 +15,8 @@
 		5A01D0632AEDF531009EC48C /* ApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A01D0622AEDF531009EC48C /* ApiUITests.swift */; };
 		5A01D0652AEDF531009EC48C /* ApiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A01D0642AEDF531009EC48C /* ApiUITestsLaunchTests.swift */; };
 		5A01D0732AEDF890009EC48C /* Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A01D0722AEDF890009EC48C /* Center.swift */; };
+		5A01D0762AEE4A71009EC48C /* CenterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A01D0752AEE4A71009EC48C /* CenterRow.swift */; };
+		5A01D0782AEE4B1B009EC48C /* Centers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A01D0772AEE4B1B009EC48C /* Centers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		5A01D0622AEDF531009EC48C /* ApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiUITests.swift; sourceTree = "<group>"; };
 		5A01D0642AEDF531009EC48C /* ApiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5A01D0722AEDF890009EC48C /* Center.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Center.swift; sourceTree = "<group>"; };
+		5A01D0752AEE4A71009EC48C /* CenterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterRow.swift; sourceTree = "<group>"; };
+		5A01D0772AEE4B1B009EC48C /* Centers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Centers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +100,10 @@
 		5A01D0462AEDF530009EC48C /* Api */ = {
 			isa = PBXGroup;
 			children = (
+				5A01D0492AEDF530009EC48C /* ContentView.swift */,
+				5A01D0742AEE4A43009EC48C /* Views */,
 				5A01D0712AEDF879009EC48C /* Models */,
 				5A01D0472AEDF530009EC48C /* ApiApp.swift */,
-				5A01D0492AEDF530009EC48C /* ContentView.swift */,
 				5A01D04B2AEDF530009EC48C /* Assets.xcassets */,
 				5A01D04D2AEDF530009EC48C /* Preview Content */,
 			);
@@ -134,8 +139,17 @@
 			isa = PBXGroup;
 			children = (
 				5A01D0722AEDF890009EC48C /* Center.swift */,
+				5A01D0772AEE4B1B009EC48C /* Centers.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		5A01D0742AEE4A43009EC48C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A01D0752AEE4A71009EC48C /* CenterRow.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +285,8 @@
 				5A01D0732AEDF890009EC48C /* Center.swift in Sources */,
 				5A01D04A2AEDF530009EC48C /* ContentView.swift in Sources */,
 				5A01D0482AEDF530009EC48C /* ApiApp.swift in Sources */,
+				5A01D0782AEE4B1B009EC48C /* Centers.swift in Sources */,
+				5A01D0762AEE4A71009EC48C /* CenterRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
